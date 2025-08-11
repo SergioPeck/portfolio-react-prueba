@@ -1,0 +1,43 @@
+{
+    "language":"es",
+    "closeModal":"Cerrar",
+    "navbarTitle":"Portfolio de Sergio",
+
+    "heroTitle":"Full Stack",
+    "heroSubTitle":"Developer",
+    "heroText1":"Transformo ideas en proyectos funcionales",
+    "heroText2":"Código • Innovación • Dedicación",
+    "heroBtnProjects":"🚀 Ver Proyectos",
+    "heroBtnContact":"✉️ Contactar",
+
+    "aboutMeTitle":"Sobre mí",
+    "aboutMeDesc1": "Soy un desarrollador full stack en formación, apasionado por crear herramientas útiles que resuelvan problemas reales. Me gusta combinar diseño intuitivo con funcionalidad sólida, trabajando en proyectos que van desde sistemas personales hasta aplicaciones web completas.",
+    "aboutMeDesc2": "Disfruto aprender nuevas tecnologías y aplicarlas para crear soluciones prácticas, como herramientas web personalizadas o interfaces conectadas a bases de datos. Busco escribir código limpio, práctico y fácil de mantener.",
+    
+    "skillsTitle":"Habilidades",
+
+    "projectsTitle":"Proyectos Destacados",
+    "descriptionTitle":"Descripción",
+    "project1Title":"Titulo del proyecto 1",
+    "project1Desc":"descripcion mucho mas mejor y larga del proyecto 1 descripcion mucho mas mejor y larga del proyecto 1",
+    "project1LongDesc":"Esta es una descripción más larga y detallada del proyecto 1. Aquí puedes incluir información adicional sobre las funcionalidades, tecnologías utilizadas, desafíos enfrentados y cómo se resolvieron. También puedes mencionar el impacto del proyecto y cualquier reconocimiento que haya recibido.Esta es una descripción más larga y detallada del proyecto 1. Aquí puedes incluir información adicional sobre las funcionalidades, tecnologías utilizadas, desafíos enfrentados y cómo se resolvieron. También puedes mencionar el impacto del proyecto y cualquier reconocimiento que haya recibido.Esta es una descripción más larga y detallada del proyecto 1. Aquí puedes incluir información adicional sobre las funcionalidades, tecnologías utilizadas, desafíos enfrentados y cómo se resolvieron. También puedes mencionar el impacto del proyecto y cualquier reconocimiento que haya recibido.",
+    "project2Title":"Titulo del proyecto 2",
+    "project2Desc":"descripcion mucho mas mejor y larga del proyecto 2 descripcion mucho mas mejor y larga del proyecto 2",
+    "project2LongDesc":"Esta es una descripción más larga y detallada del proyecto 1. Aquí puedes incluir información adicional sobre las funcionalidades, tecnologías utilizadas, desafíos enfrentados y cómo se resolvieron. También puedes mencionar el impacto del proyecto y cualquier reconocimiento que haya recibido.Esta es una descripción más larga y detallada del proyecto 1. Aquí puedes incluir información adicional sobre las funcionalidades, tecnologías utilizadas, desafíos enfrentados y cómo se resolvieron. También puedes mencionar el impacto del proyecto y cualquier reconocimiento que haya recibido.Esta es una descripción más larga y detallada del proyecto 1. Aquí puedes incluir información adicional sobre las funcionalidades, tecnologías utilizadas, desafíos enfrentados y cómo se resolvieron. También puedes mencionar el impacto del proyecto y cualquier reconocimiento que haya recibido.",
+    "project3Title":"Titulo del proyecto 3",
+    "project3Desc":"descripcion mucho mas mejor y larga del proyecto 3 descripcion mucho mas mejor y larga del proyecto 3",
+    "project3LongDesc":"Esta es una descripción más larga y detallada del proyecto 1. Aquí puedes incluir información adicional sobre las funcionalidades, tecnologías utilizadas, desafíos enfrentados y cómo se resolvieron. También puedes mencionar el impacto del proyecto y cualquier reconocimiento que haya recibido.Esta es una descripción más larga y detallada del proyecto 1. Aquí puedes incluir información adicional sobre las funcionalidades, tecnologías utilizadas, desafíos enfrentados y cómo se resolvieron. También puedes mencionar el impacto del proyecto y cualquier reconocimiento que haya recibido.Esta es una descripción más larga y detallada del proyecto 1. Aquí puedes incluir información adicional sobre las funcionalidades, tecnologías utilizadas, desafíos enfrentados y cómo se resolvieron. También puedes mencionar el impacto del proyecto y cualquier reconocimiento que haya recibido.",
+
+    "contactTitle":"Contacto",
+    "contactDesc":"¡Estoy abierto a nuevas oportunidades y colaboraciones! Envía un correo o escribime por redes ",
+    "mailTitle":"Enviar un correo",
+    "contactName":"Nombre",
+    "contactEmail":"Correo electrónico",
+    "contactSubject":"Asunto",
+    "contactMessage":"Mensaje",
+    "send":"Enviar",
+    "emailError":"Ocurrió un error al envuiar el correo. Por favor, inténtalo de nuevo.",
+    "emailSuccess":"Tu Mensaje ha sido enviado con éxito. ¡Gracias por contactarme!",
+
+    "footerText":"Desarrollado por Sergio"
+}

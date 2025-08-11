@@ -1,0 +1,39 @@
+{
+    "language": "en",
+    "closeModal": "Close",
+    "navbarTitle": "Sergio's Portfolio",
+
+    "heroTitle": "Full Stack",
+    "heroSubTitle": "Developer",
+    "heroText1": "I turn ideas into functional projects",
+    "heroText2": "Code • Innovation • Dedication",
+    "heroBtnProjects": "🚀 View Projects",
+    "heroBtnContact": "✉️ Contact",
+
+    "aboutMeTitle": "About Me",
+    "aboutMeDesc1": "I am a full stack developer in training, passionate about building useful tools that solve real-world problems. I enjoy combining intuitive design with solid functionality, working on projects ranging from personal systems to full web applications.",
+    "aboutMeDesc2": "I enjoy learning new technologies and applying them to create practical solutions, such as custom web tools or interfaces connected to databases. I strive to write clean, practical, and maintainable code.",
+
+    "skillsTitle": "Skills",
+
+    "projectsTitle": "Featured Projects",
+    "project1Title": "Project 1 Title",
+    "project1Desc": "much better and longer description of project 1 much better and longer description of project 1 much better and longer description of project 1 much better and longer description of project 1",
+    "project2Title": "Project 2 Title",
+    "project2Desc": "much better and longer description of project 2 much better and longer description of project 2 much better and longer description of project 2 much better and longer description of project 2",
+    "project3Title": "Project 3 Title",
+    "project3Desc": "much better and longer description of project 3 much better and longer description of project 3 much better and longer description of project 3 much better and longer description of project 3",
+
+    "contactTitle": "Contact",
+    "contactDesc": "I'm open to new opportunities and collaborations! Send an email or message me on social media.",
+    "mailTitle": "Send an email",
+    "contactName": "Name",
+    "contactEmail": "Email",
+    "contactSubject": "Subject",
+    "contactMessage": "Message",
+    "send": "Send",
+    "emailError":" An error occurred while sending the email. Please try again.",
+    "emailSuccess": "Your message has been sent successfully. Thank you for contacting me!",
+
+    "footerText": "Developed by Sergio"
+}
