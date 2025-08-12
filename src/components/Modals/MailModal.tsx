@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { FiX } from "react-icons/fi";
 import emailjs from '@emailjs/browser';
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 type MailModalProps= {
     isOpen: boolean;
@@ -16,6 +16,14 @@ export function MailModal({ onClose, isOpen }: MailModalProps) {
 
     const inputClasses ="w-5/6 h-12 mx-auto p-3 rounded-lg bg-black/40 text-white focus:outline-none focus:ring focus:ring-violet-600 transition duration-300 backdrop-blur-xs invalid:focus:ring-pink-500 invalid:text-pink-500 invalid:border-pink-500 invalid:border-2"; ;
   
+    useEffect(()=>{
+            if (!isOpen) return;
+            document.body.style.overflow = isOpen ? "hidden" : "auto";
+            return () => {
+                document.body.style.overflow = "auto";
+            };
+        },[isOpen]);
+
     <script
         type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
