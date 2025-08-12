@@ -55,7 +55,7 @@ export function Projects(){
 
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 m-5 max-w-screen-xl mx-auto">
                 {projects.map((project,i)=>(
-                    <div key={i} onClick={()=>{setProjectSelected(project); setIsModalOpen(true); console.log(isModalOpen)}} className="flex flex-col bg-black/40 backdrop-blur-xs p-4 rounded-2xl shadow-sm shadow-violet-400 hover:scale-105 hover:shadow-md transition duration-300 hover:bg-black/60 mx-6 max-w-100 cursor-pointer">
+                    <div key={i} onClick={()=>{setProjectSelected(project); setIsModalOpen(true)}} className="flex flex-col bg-black/40 backdrop-blur-xs p-4 rounded-2xl shadow-sm shadow-violet-400 hover:scale-105 hover:shadow-md transition duration-300 hover:bg-black/60 mx-6 max-w-100 cursor-pointer">
                         <img className="rounded-sm h-45 w-full " src={project.imgs[0]} alt="portada"/>
                         <h5 className="text-2xl my-2 pr-4">{project.title}</h5>
                         <p className="text-sm pr-4 min-h-24">{project.description}</p>
