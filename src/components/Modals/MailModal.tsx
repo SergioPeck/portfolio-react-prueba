@@ -12,6 +12,7 @@ export function MailModal({ onClose, isOpen }: MailModalProps) {
     const [t] = useTranslation();
     const [statusMessage, setStatusMessage] = useState<string>("");
     const [statusType, setStatusType] = useState<"success" | "error" | "">("");
+    const [isSending, setIsSending] = useState(false);
 
     const inputClasses ="w-5/6 h-12 mx-auto p-3 rounded-lg bg-black/40 text-white focus:outline-none focus:ring focus:ring-violet-600 transition duration-300 backdrop-blur-xs invalid:focus:ring-pink-500 invalid:text-pink-500 invalid:border-pink-500 invalid:border-2"; ;
   
@@ -27,6 +28,8 @@ export function MailModal({ onClose, isOpen }: MailModalProps) {
 
         if (!form.current) return;
 
+        setIsSending(true);
+
         emailjs
         .sendForm('service_uu1fgud', 'template_mt8qx19', form.current, {
             publicKey: 'u7A__t4ga5gPoa177',
@@ -36,6 +39,7 @@ export function MailModal({ onClose, isOpen }: MailModalProps) {
             setStatusMessage(`✅ {t('emailSuccess')}`);
             setStatusType("success");
             form.current?.reset();
+            setIsSending(false);
             setTimeout(() => {
                 setStatusMessage("");
                 setStatusType("");
@@ -45,6 +49,7 @@ export function MailModal({ onClose, isOpen }: MailModalProps) {
             console.error("FAILED...", error.text);
             setStatusMessage(`❌ {t('emailError')}`);
             setStatusType("error");
+            setIsSending(false);
             },
         );
     };
@@ -62,7 +67,10 @@ export function MailModal({ onClose, isOpen }: MailModalProps) {
                     <input required name="from_email" type="email" placeholder={t(`contactEmail`)} className={inputClasses} />
                     <input required name="from_title" type="text" placeholder={t(`contactSubject`)} className={inputClasses} />
                     <textarea required name="message" placeholder={t(`contactMessage`)} className="w-5/6 h-30 mx-auto p-3 rounded-lg bg-black/40 text-white/80 focus:outline-none focus:ring focus:ring-violet-600 transition duration-300 backdrop-blur-xs invalid:text-pink-500 invalid:border"></textarea>
-                    <button type="submit" className="w-4/6 mx-auto bg-gradient-to-r from-pink-400 to-violet-400 text-white p-3 rounded-lg hover:scale-105 transition duration-300 cursor-pointer hover:bg-gradient-to-r hover:from-pink600 hover:to-violet-600">{t(`send`)}</button>
+                    <button type="submit" disabled={isSending}
+                    className="w-4/6 mx-auto bg-gradient-to-r from-pink-400 to-violet-400 text-white p-3 rounded-lg hover:scale-105 transition duration-300 cursor-pointer hover:bg-gradient-to-r hover:from-pink600 hover:to-violet-600">
+                        {isSending ? t(`sending`) : t(`send`)}
+                        </button>
                 </form>
             </div>
 

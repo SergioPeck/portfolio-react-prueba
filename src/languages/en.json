@@ -32,6 +32,7 @@
     "contactSubject": "Subject",
     "contactMessage": "Message",
     "send": "Send",
+    "sending": "Sending...",
     "emailError":" An error occurred while sending the email. Please try again.",
     "emailSuccess": "Your message has been sent successfully. Thank you for contacting me!",
 

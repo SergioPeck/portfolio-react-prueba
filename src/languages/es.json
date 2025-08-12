@@ -36,6 +36,7 @@
     "contactSubject":"Asunto",
     "contactMessage":"Mensaje",
     "send":"Enviar",
+    "sending":"Enviando...",
     "emailError":"Ocurrió un error al envuiar el correo. Por favor, inténtalo de nuevo.",
     "emailSuccess":"Tu Mensaje ha sido enviado con éxito. ¡Gracias por contactarme!",
 
