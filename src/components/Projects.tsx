@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import portada from "../imgs/1.webp"
-import project12 from "../imgs/2.webp"
-import project13 from "../imgs/3.webp"
-import project14 from "../imgs/4.webp"
+import img2 from "../imgs/2.webp"
+import img3 from "../imgs/3.webp"
+import img4 from "../imgs/4.webp"
 import { useState } from "react";
 import { ProjectModal } from "./Modals/ProjectModal";
 
@@ -23,7 +23,7 @@ export function Projects(){
 
     const projects = [
         {
-            "imgs":[portada,project12,project13,project14],
+            "imgs":[portada,img2,img3,img4],
             "title":t(`project1Title`),
             "descriptionTitle":t(`descriptionTitle`),
             "description":t(`project1Desc`),
@@ -31,7 +31,7 @@ export function Projects(){
             "technologies":["steam","slack","vscode"]
         },
         {
-            "imgs":[portada,project14,project13,project12],
+            "imgs":[portada,img4,img3,img2],
             "title":t(`project2Title`),
             "descriptionTitle":t(`descriptionTitle`),
             "description":t(`project2Desc`),
@@ -39,7 +39,7 @@ export function Projects(){
             "technologies":["steam","slack","vscode"]
         },
         {
-            "imgs":[portada,project13,project14,project12],
+            "imgs":[portada,img3,img4,img2],
             "title":t(`project3Title`),
             "descriptionTitle":t(`descriptionTitle`),
             "description":t(`project3Desc`),
